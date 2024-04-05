@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .world-map {
+    width: 800px;
+    height: 400px;
+    background-image: url('wolrd.jpg'); 
+    background-size: cover;
+    position: relative;
+  }
+  
+  .time-zone {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  #timeZone1 { top: 50px; left: 50px; }
+  #timeZone2 { top: 100px; left: 200px; }
+  #timeZone3 { top: 200px; left: 350px; }
+  #timeZone4 { top: 250px; left: 100px; }
+  #timeZone5 { top: 300px; left: 250px; }
+  
+  
+  
